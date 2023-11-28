@@ -1,0 +1,33 @@
+{
+  "formFields": [
+                  {
+                    "fieldName": "firstName",
+                    "fieldLabel": "First Name",
+                    "fieldType": "text",
+                    "pattern": "^[A-Z][a-z]{0,31}"
+                  },
+                  {
+                    "fieldName": "secondName",
+                    "fieldLabel": "Second Name",
+                    "fieldType": "text",
+                    "pattern": "^[A-Z][a-z]{0,31}"
+                  },
+                  {
+                    "fieldName": "age",
+                    "fieldLabel": "Age",
+                    "fieldType": "number"
+                  },
+                  {
+                    "fieldName": "gender",
+                    "fieldLabel": "Gender",
+                    "fieldType": "radio",
+                    "value": "Male"
+                  },
+                  {
+                    "fieldName": "gender",
+                    "fieldLabel": "Gender",
+                    "fieldType": "radio",
+                    "value": "Female"
+                  }
+                ]
+}
