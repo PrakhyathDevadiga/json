@@ -4,30 +4,71 @@
                     "fieldName": "firstName",
                     "fieldLabel": "First Name",
                     "fieldType": "text",
-                    "pattern": "^[A-Z][a-z]{0,31}"
+                    "validators": [
+                      "required": true, 
+                      "pattern": "^[A-Z][a-z]{0,31}"
+                    ]
                   },
                   {
                     "fieldName": "secondName",
                     "fieldLabel": "Second Name",
                     "fieldType": "text",
-                    "pattern": "^[A-Z][a-z]{0,31}"
+                    "validators": [
+                      "required": true, 
+                      "pattern": "^[A-Z][a-z]{0,31}"
+                    ]
                   },
                   {
                     "fieldName": "age",
                     "fieldLabel": "Age",
-                    "fieldType": "number"
+                    "fieldType": "number",
+                     "validators": [
+                      "required": true, 
+                    ]
+                  },
+                  {
+                    "fieldName": "state",
+                    "fieldLabel": "State",
+                    "fieldType": "dropdown",
+                    "validators": [
+                      "required": true, 
+                    ],
+                    "options": [
+                      {
+                        "name": "karnataka",
+                        "value": "Karnataka"
+                      },
+                      {
+                        "name": "maharashtra",
+                        "value": "Maharashtra"
+                      },
+                      {
+                        "name": "kerala",
+                        "value": "Kerala"
+                      },
+                      {
+                        "name": "madhyapradesh",
+                        "value": "Madhya Pradesh"
+                      },
+                    ]
                   },
                   {
                     "fieldName": "gender",
                     "fieldLabel": "Gender",
                     "fieldType": "radio",
-                    "value": "Male"
+                    "value": "Male",
+                    "validators": [
+                      "required": true, 
+                    ]
                   },
                   {
                     "fieldName": "gender",
                     "fieldLabel": "Gender",
                     "fieldType": "radio",
-                    "value": "Female"
+                    "value": "Female",
+                    "validators": [
+                      "required": true, 
+                    ]
                   }
                 ]
 }
