@@ -56,19 +56,14 @@
                     "fieldName": "gender",
                     "fieldLabel": "Gender",
                     "fieldType": "radio",
-                    "value": "Male",
+                    "choice": {
+                      "Male",
+                      "Female",
+                      "Other"
+                    },
                     "validators": {
                       "required": true
                     }
                   },
-                  {
-                    "fieldName": "gender",
-                    "fieldLabel": "Gender",
-                    "fieldType": "radio",
-                    "value": "Female",
-                    "validators": {
-                      "required": true
-                    }
-                  }
                 ]
 }
