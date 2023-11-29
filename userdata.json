@@ -56,11 +56,11 @@
                     "fieldName": "gender",
                     "fieldLabel": "Gender",
                     "fieldType": "radio",
-                    "choice": {
+                    "choice": [
                       "Male",
                       "Female",
                       "Other"
-                    },
+                    ],
                     "validators": {
                       "required": true
                     }
