@@ -24,7 +24,7 @@
                     "fieldName": "age",
                     "fieldLabel": "Age",
                     "fieldType": "number",
-                    "value": null,
+                    "value": 0,
                     "validators": {
                       "required": true
                     }
