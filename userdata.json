@@ -1,18 +1,20 @@
 {
   "formFields": [
                   {
-                    "fieldName": "firstName",
+                    "fieldName": "firstname",
                     "fieldLabel": "First Name",
                     "fieldType": "text",
+                    "value": null,
                     "validators":{
                       "required": true,
                       "pattern": "^[A-Z][a-z]{0,31}"
                     }
                   },
                    {
-                    "fieldName": "secondName",
+                    "fieldName": "secondname",
                     "fieldLabel": "Second Name",
                     "fieldType": "text",
+                    "value": null,
                     "validators": {
                       "required": true,
                       "pattern": "^[A-Z][a-z]{0,31}"
@@ -22,7 +24,8 @@
                     "fieldName": "age",
                     "fieldLabel": "Age",
                     "fieldType": "number",
-                     "validators": {
+                    "value": null,
+                    "validators": {
                       "required": true
                     }
                   },
@@ -61,6 +64,15 @@
                       "Female",
                       "Other"
                     ],
+                    "validators": {
+                      "required": true
+                    }
+                  },
+                  {
+                    "fieldName": "graduationStatus",
+                    "fieldLabel": "Graduated in 2023",
+                    "fieldType": "checkbox",
+                    "value": false,
                     "validators": {
                       "required": true
                     }
