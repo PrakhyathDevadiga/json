@@ -10,7 +10,8 @@
                       "pattern": "^[A-Z][a-z]{0,31}"
                     }
                   },
-                   {
+
+                  {
                     "fieldName": "secondname",
                     "fieldLabel": "Second Name",
                     "fieldType": "text",
@@ -24,9 +25,10 @@
                     "fieldName": "age",
                     "fieldLabel": "Age",
                     "fieldType": "number",
-                    "value": 0,
+                    "value": null,
                     "validators": {
                       "required": true,
+                      "min" : 18,
                       "pattern": "^[0-9]{1,3}"
                     }
                   },
@@ -63,7 +65,7 @@
                     "choice": [
                       "Male",
                       "Female",
-                      "Other"
+                      "Others"
                     ],
                     "validators": {
                       "required": true
