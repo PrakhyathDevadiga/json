@@ -26,7 +26,7 @@
                     "fieldType": "number",
                     "value": 0,
                     "validators": {
-                      "required": true
+                      "required": true,
                       "pattern": "^[0-9]{1,3}"
                     }
                   },
