@@ -33,6 +33,16 @@
                     }
                   },
                   {
+                    "fieldName": "phone",
+                    "fieldLabel": "Phone Number",
+                    "fieldType": "number",
+                    "value": null,
+                    "validators": {
+                      "required": true,
+                      "pattern": "[0-9]{10}"
+                    }
+                  },
+                  {
                     "fieldName": "state",
                     "fieldLabel": "State",
                     "fieldType": "dropdown",
@@ -45,16 +55,38 @@
                         "value": "Karnataka"
                       },
                       {
-                        "name": "maharashtra",
-                        "value": "Maharashtra"
-                      },
-                      {
                         "name": "kerala",
                         "value": "Kerala"
                       },
                       {
+                        "name": "maharashtra",
+                        "value": "Maharashtra"
+                      },
+                      {
                         "name": "madhyapradesh",
                         "value": "Madhya Pradesh"
+                      }
+                    ]
+                  },
+                  {
+                    "fieldName": "country",
+                    "fieldLabel": "Country",
+                    "fieldType": "dropdown",
+                    "validators": {
+                      "required": true
+                    },
+                    "options": [
+                      {
+                        "name": "afghanisthan",
+                        "value": "Afghanisthan"
+                      },
+                      {
+                        "name": "india",
+                        "value": "India"
+                      },
+                      {
+                        "name": "germany",
+                        "value": "Germany"
                       }
                     ]
                   },
@@ -75,7 +107,7 @@
                     "fieldName": "graduationStatus",
                     "fieldLabel": "Graduated in 2023",
                     "fieldType": "checkbox",
-                    "value": false,
+                    "value": true,
                     "validators": {
                       "required": true
                     }
