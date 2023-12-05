@@ -1,0 +1,165 @@
+{
+  "id": 1,
+  "formFields": [
+    {
+      "id": 1,
+      "fieldName": "firstname",
+      "fieldLabel": "First Name",
+      "fieldType": "text",
+      "value": null,
+      "validators": {
+        "id": 1,
+        "required": true,
+        "pattern": "^[A-Z][a-z]{0,31}",
+        "minValue": null,
+        "maxValue": null,
+        "min": null,
+        "max": null
+      },
+      "choices": [],
+      "options": []
+    },
+    {
+      "id": 2,
+      "fieldName": "secondname",
+      "fieldLabel": "Second Name",
+      "fieldType": "text",
+      "value": null,
+      "validators": {
+        "id": 2,
+        "required": true,
+        "pattern": "^[A-Z][a-z]{0,31}",
+        "minValue": null,
+        "maxValue": null,
+        "min": null,
+        "max": null
+      },
+      "choices": [],
+      "options": []
+    },
+    {
+      "id": 3,
+      "fieldName": "age",
+      "fieldLabel": "Age",
+      "fieldType": "number",
+      "value": null,
+      "validators": {
+        "id": 3,
+        "required": true,
+        "pattern": "^[0-9]{1,3}",
+        "minValue": null,
+        "maxValue": null,
+        "min": "18",
+        "max": null
+      },
+      "choices": [],
+      "options": []
+    },
+    {
+      "id": 4,
+      "fieldName": "phone",
+      "fieldLabel": "Phone Number",
+      "fieldType": "number",
+      "value": null,
+      "validators": {
+        "id": 4,
+        "required": true,
+        "pattern": "[0-9]{10}",
+        "minValue": null,
+        "maxValue": null,
+        "min": null,
+        "max": null
+      },
+      "choices": [],
+      "options": []
+    },
+    {
+      "id": 5,
+      "fieldName": "state",
+      "fieldLabel": "State",
+      "fieldType": "dropdown",
+      "value": null,
+      "validators": {
+        "id": 5,
+        "required": true,
+        "pattern": null,
+        "minValue": null,
+        "maxValue": null,
+        "min": null,
+        "max": null
+      },
+      "choices": [],
+      "options": [
+        {
+          "id": 1,
+          "optionName": "karnataka",
+          "optionValue": "Karnataka"
+        },
+        {
+          "id": 2,
+          "optionName": "kerala",
+          "optionValue": "Kerala"
+        },
+        {
+          "id": 3,
+          "optionName": "maharashtra",
+          "optionValue": "Maharashtra"
+        },
+        {
+          "id": 4,
+          "optionName": "madhyapradesh",
+          "optionValue": "MadhyaPradesh"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "fieldName": "gender",
+      "fieldLabel": "Gender",
+      "fieldType": "radio",
+      "value": null,
+      "validators": {
+        "id": 6,
+        "required": true,
+        "pattern": null,
+        "minValue": null,
+        "maxValue": null,
+        "min": null,
+        "max": null
+      },
+      "choices": [
+        {
+          "id": 1,
+          "choice": "Male"
+        },
+        {
+          "id": 2,
+          "choice": "Female"
+        },
+        {
+          "id": 3,
+          "choice": "Others"
+        }
+      ],
+      "options": []
+    },
+    {
+      "id": 7,
+      "fieldName": "graduationStatus",
+      "fieldLabel": "Graduated in 2023",
+      "fieldType": "checkbox",
+      "value": "true",
+      "validators": {
+        "id": 7,
+        "required": true,
+        "pattern": null,
+        "minValue": null,
+        "maxValue": null,
+        "min": null,
+        "max": null
+      },
+      "choices": [],
+      "options": []
+    }
+  ]
+}
